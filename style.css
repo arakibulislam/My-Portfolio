@@ -47,14 +47,19 @@ h1{
     text-decoration: none;
     color: white;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
 
+}
+.bottom-section h1{
+    text-align: center;
+    padding-bottom: 5%;
 }
 .last-section{
     display: flex;
 
 }
 .table-1{
+    
     box-shadow: 10px 10px 40px gray;
     width: 40%;
     margin-left: 5%;
@@ -79,3 +84,12 @@ footer p{
     color: rgb(94, 94, 94);
     text-align: center;
 }
+.hover-effect-1:hover{
+    background-image: linear-gradient(to right, #420000,black);
+    color: orange;
+}
+.hover-effect-2:hover{
+    background-image: linear-gradient(to right,rgb(0, 0, 122),black);
+    color: orange;
+}
+
