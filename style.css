@@ -30,6 +30,9 @@ h1{
 .orange{
     color: orange;
 }
+.orange:hover{
+    color:black;
+}
 .p-style{
     color: #646464;
     text-align: justify;
@@ -48,7 +51,10 @@ h1{
     color: white;
     display: inline-block;
     margin-top: 5px;
-
+}
+.button:hover{
+    color:rgb(255, 186, 59);
+    background-image: linear-gradient(to left, rgb(131, 0, 0),black );
 }
 .bottom-section h1{
     text-align: center;
